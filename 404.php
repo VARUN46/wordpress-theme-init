@@ -89,7 +89,7 @@
 <div class="container">
   <h1>-_-<br/> <span style="font-size:0.4em;">404 LOST PATH</span> </h1>
 
-  <p class="visit-msg"> Visit <a href="/"><?php echo get_home_url(); ?></a></p>
+  <p class="visit-msg"> Visit <a href="<?php echo get_home_url(); ?>"><?php echo get_home_url(); ?></a></p>
 </div>
 
 </body>
